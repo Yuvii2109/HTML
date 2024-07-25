@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2><u>Registration Form</u></h2>
+    <form action = "/server">
+        <div>
+            <h4><u>Enter your name as required - </u></h4>
+        </div>
+        <div>
+            <label for = "FN">First Name - </label>
+            <input type = "text"
+            name = "First" placeholder = "Yuvraj"
+            id = "FN">
+        </div>
+        <div>
+            <label for = "SN">Second Name - </label>
+            <input type = "text"
+            name = "Second" placeholder = "Sachdeva"
+            id = "SN">
+        </div>
+        <hr>
+        <div>
+            <h4><u>Enter your gender - </u></h4>
+            <select name = "Gender"
+            id = "Gender">
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+            <option value = "Denial">Denial</option>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <p><b>Do you agree to the terms and conditions ?</b></p>
+            <input type = "checkbox"
+            name = "agreement" id = "agree">
+            <label for = "agree">Yes, I agree</label>
+        </div>
+        <hr>
+        <div>
+            <button>Submit</button>
+            <button type = "reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>

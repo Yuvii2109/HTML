@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h2><u>Personal Details -</u></h2>
+    <div>
+        <form action = "/server">
+            <div>
+                <label for = "Name"><u>Name -></u></label>
+                <input type = "text"
+                name = "Name" placeholder = "Yuvraj Sachdeva"
+                id = "N">
+            </div>
+            <hr>
+            <div>
+                <label for = "Gender"><u>Select Gender -></u></label>
+                <input type = "radio"
+                name = "Gender" id = "Male">
+                <label for = "Male">Male</label>
+                <input type = "radio"
+                name = "Gender" id = "Female">
+                <label for = "Female">Female</label>
+            </div>
+            <hr>
+            <div>
+                <u>Select Country -></u>
+                <select name = "Country"
+                id = "Country">
+                <option value = "India">India</option>
+                <option value = "Pakistan">Pakistan</option>
+                <option value = "Sri Lanka">Sri Lanka</option>
+                <option value = "China">China</option>
+                <option value = "USA">USA</option>
+                <option value = "Canada">Canada</option>
+                <option value = "Other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for = "Country">For other Country -></label>
+                <input type = "text" 
+                placeholder = "Enter the Country"
+                name = "Country" id = "Country">
+            </div>
+            <hr>
+            <div>
+                <label for = "Message"><h4>Message -></h4></label>
+                <textarea name = "Message" 
+                id = "Mess"
+                style = "width: 300px; height: 100px;">
+                </textarea>
+            </div>
+            <hr>
+            <div>
+                <input type = "checkbox"
+                name = "Subscribe" id = "tick">
+                <label for = "tick">Subscribe</label>
+            </div>
+            <button>Register</button>
+            <button type = "reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>

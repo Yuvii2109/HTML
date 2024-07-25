@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Input</title>
+</head>
+<body>
+    <form action = "/server">
+        <!-- In the previous snippet we could only see
+        file:///C:/server?gender=on in the taskbar
+        and we could not see the option ticked or
+        selected by us... in order to add the information
+        about the option ... we use "value" -->
+        <div>
+            <h3>Enter your gender -</h3>
+        </div>
+        <div>
+            <input type = "radio"
+            name = "gender" id = "male" 
+            value = "Male">
+            <label for = "male">Male</label>
+        </div>
+        <div>
+            <input type = "radio"
+            name = "gender" id = "female"
+            value = "Female">
+            <label for = "female">Female</label>
+        </div>
+        <div>
+            <input type = "radio"
+            name = "gender" id = "denial"
+            value = "Denial">
+            <label for = "denial">Denial</label>
+        </div>
+        <button>Submit</button>
+        <button type = "reset">Reset</button>
+    </form>
+</body>
+</html>

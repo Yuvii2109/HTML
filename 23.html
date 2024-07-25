@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+</head>
+<body>
+    <form action = "/server">
+        <div>
+            <h3>Choose your Profession - </h3>
+        </div>
+        <div>
+            <select name = "profession"
+            id = "profession">
+            <option value = "Student">Student</option>
+            <option value = "Doctor">Doctor</option>
+            <option value = "Engineer">Engineer</option>
+            <option value = "Farmer">Farmer</option>
+            <option value = "Teacher">Teacher</option>
+            <option value = "Others">Others</option>
+            </select>
+        <div>
+            <p><b>If others than what - </b></p>
+            <input type = "text" 
+            placeholder = "Others..."
+            name = "profession"
+            id = "profession">
+        </div>
+        <hr>
+        <div>
+            <button>Submit</button>
+            <button type = "reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
